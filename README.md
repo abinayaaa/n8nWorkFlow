@@ -1,6 +1,8 @@
 # n8nWorkFlow
 My First n8n workflow using AI agent, Telegram
 
+// ### Below code is to map records from Google/Airtable sheets to AI Agent. Paste this code in code JS node###//
+
 // ✅ Process all Airtable records into a clean JSON array
 const cleanedData = $input.all().map(item => {
   const record = item.json;
